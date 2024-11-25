@@ -1,0 +1,44 @@
+# Entorno virtual
+venv/
+.env/
+
+# Archivos de caché y compilación de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyd.*
+*.pyc
+*.pyo
+
+# Archivos de caché de pytest
+.pytest_cache/
+
+# Configuración de IDEs/editor de texto
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Datos sensibles y variables de entorno
+*.env
+*.key
+*.pem
+
+# Archivos temporales y logs
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Archivos de Jupyter Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos generados por GitHub Actions
+.github/workflows/*.log
+.github/*.log
