@@ -5,7 +5,6 @@ Este proyecto realiza scraping de la página de Mercado Libre para obtener infor
 ## Estructura del proyecto
 
 - `scripts/`: Contiene el código de scraping.
-- `tests/`: Contiene pruebas automatizadas.
 - `data/`: Almacena los resultados del scraping en formato JSON.
 - `.github/workflows/`: Configuración del pipeline CI/CD.
 
@@ -13,4 +12,4 @@ Este proyecto realiza scraping de la página de Mercado Libre para obtener infor
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/scraping-devops-ci-cd.git
+   git clone https://github.com/darvcodev/scraping-mercadolibre.git
