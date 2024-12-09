@@ -26,7 +26,6 @@ jobs:
     - name: Scrape Mercado Libre and save HTML
       run: |
         python scripts/to-html.py
-        mv index.html docs/index.html
 
     - name: Commit and Push generated HTML
       run: |
